@@ -1,0 +1,91 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 100vh;
+    margin: 3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me h1 {
+    font-size: 3rem;
+}
+
+.skills_h1 {
+    font-size: 1.5rem;
+    color: rgb(238, 238, 238);
+}
+
+.skills h2 {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(238, 238, 238);
+    margin-bottom: 0.5rem;
+}
+
+.about-skills {
+    font-size: 15px;
+    padding-block: 8px;
+    border-block: dotted rgb(255, 183, 43);
+    overflow: hidden;
+    user-select: none;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.about-skills ul {
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    animation: scroll 15s var(--_animation-direction, forwards) linear infinite;
+}
+
+.about-skills[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.about-skills:hover ul{
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-100% - 2rem));
+    }
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.Education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+
+
+
+
+
+
+

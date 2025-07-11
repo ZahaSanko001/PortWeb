@@ -1,0 +1,103 @@
+.desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    min-height: 100vh;
+}
+
+.Webdev {
+    display: flex;
+    gap: 20px;   
+}
+
+.desc h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.type {
+    position: relative;
+}
+.type::before,
+.type::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.type::before {
+    background: black;
+    animation: typewriter 1.5s steps(9) forwards 1s;
+}
+
+.type::after {
+    top: 1em;
+    border-radius: 10%;
+    border-color: black;
+    width: 0.9em;
+    height: 0.125em;
+    background: rgb(255, 230, 27);
+    animation: typewriter 1.5s steps(9) forwards 1s,
+    blink 500ms steps(9) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+
+
+.desc p {
+    border-style: dotted;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: max-content;
+}
+
+.desc img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 50px;
+    border-style: dashed;
+    padding: 10px;
+}
+
+.desc-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    font-weight: bold;
+    background-color: rgb(255, 183, 43);
+    color: rgb(247, 247, 247);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn2 {
+    color: rgb(255, 230, 27);
+    padding: 10px 10px;
+    border-style: solid;
+    border-color: rgb(255, 183, 43);
+    background-color: inherit;
+    border-radius: 7px;
+    cursor: pointer;
+}
