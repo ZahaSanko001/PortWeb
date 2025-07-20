@@ -6,6 +6,15 @@
     margin: 3rem;
 }
 
+h2 {
+color: (238, 238, 238);
+font-size: 1rem;
+}
+a {
+color: rgb(238, 238, 238);
+font-size: 1rem;
+}
+
 ul {
     list-style: none;
 }
@@ -83,6 +92,46 @@ ul {
 }
 
 
+@media screen and (max-width: 768px) {
+  .about-container {
+    margin: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .about-me {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .about-me h1 {
+    font-size: 1.5rem;
+  }
+
+  .skills_h1 {
+    font-size: 1.2rem;
+  }
+
+  .skills h2 {
+    justify-content: center;
+  }
+
+  .about-skills ul {
+    animation: scroll 35s var(--_animation-direction, forwards) linear infinite;
+  }
+
+  .Experience,
+  .Education {
+    gap: 2rem;
+  }
+  h2 {
+    color: (238, 238, 238);
+    font-size: 0.8rem;
+  }
+  a {
+    color: rgb(238, 238, 238);
+    font-size: 0.8rem;
+  }
+}
 
 
 

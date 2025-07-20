@@ -8,6 +8,7 @@ import Particles from './Background';
 const App = () => {
   return (
     <>
+      <img src="noise.png" alt="" className="noise"/>
       <div className='backgroundP'>
         <div style={{ width: '100%', height: '600px', position: 'relative' }}>
         <Particles

@@ -5,6 +5,10 @@ const Desc = () => {
   return (
     <div className="desc">
 
+      <div className='desc-img'>
+        <img src={Img} alt="" />
+      </div>
+
       <div className='desc-name'>
         <p>Hey!, I'm Raiyan</p>
 
@@ -24,9 +28,6 @@ const Desc = () => {
 
       </div>
 
-      <div className='desc-img'>
-        <img src={Img} alt="" />
-      </div>
       
     </div>
   );
