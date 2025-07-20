@@ -186,13 +186,13 @@ const About = () => {
 
             <div className='Experience'>
                 <h1 className='skills_h1'>Experience_</h1>
-                <h2>-- Backend developer at <a href="">Team81_ (link under Construction)</a> __2025 - present__</h2>
-                <h2>-- Freelancer at <a href="">(link under construction)</a> __2022 - present__</h2>
+                <h2>-- Backend developer at <a href="">Team81_ (link under Construction)</a> 2025 - present</h2>
+                <h2>-- Freelancer at <a href="">(link under construction)</a> 2022 - present </h2>
             </div>
 
             <div className='Education'>
                 <h1 className='skills_h1'>Education_</h1>
-                <h2>-- Studying CompSci. at <a href="https://www.stamforduniversity.edu.bd">Stamford_University</a> __2021 - present__</h2>
+                <h2>-- Studying CompSci. at <a href="https://www.stamforduniversity.edu.bd">Stamford_University</a> 2021 - present </h2>
             </div>
 
         </div>

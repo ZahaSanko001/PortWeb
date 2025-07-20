@@ -1,12 +1,11 @@
 import './desc.css';
-import Img from './assets/Ryan1.jpg';
 
 const Desc = () => {
   return (
     <div className="desc">
 
       <div className='desc-img'>
-        <img src={Img} alt="" />
+        <img src="Ryan1.JPG" alt="" />
       </div>
 
       <div className='desc-name'>
